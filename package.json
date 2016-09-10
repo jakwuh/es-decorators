@@ -1,6 +1,6 @@
 {
   "name": "es-decorators",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Most useful EcmaScript decorators",
   "main": "es5/index.js",
   "scripts": {
