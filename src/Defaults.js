@@ -1,3 +1,6 @@
+/**
+ * @param {{}} props
+ */
 export function Defaults(props) {
 
     return function (target) {

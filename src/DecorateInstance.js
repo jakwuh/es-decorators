@@ -1,3 +1,7 @@
+/**
+ * @param {function} decorator
+ * @param {*[]} [args]
+ */
 export function DecorateInstance(decorator, ...args) {
 
     return function (target, key, descriptor) {
