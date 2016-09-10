@@ -1,0 +1,33 @@
+{
+  "name": "es-decorators",
+  "version": "0.0.0",
+  "description": "Most useful EcmaScript decorators",
+  "main": "es5/index.js",
+  "scripts": {
+    "start": "babel -w -s inline --presets es2015 --ignore spec.js -d lib src",
+    "build": "babel -s inline --presets es2015 --ignore spec.js -d lib src",
+    "build:test": "babel -s inline --presets es2015 --plugins transform-decorators-legacy -d test src",
+    "prepublish": "npm run build && npm test",
+    "test": "npm run build:test && mocha test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jakwuh/es-decorators.git"
+  },
+  "keywords": [
+    "decorators"
+  ],
+  "author": "jakwuh <jakwuh@gmail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  }
+}
