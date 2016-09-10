@@ -1,4 +1,4 @@
-# decorators
+# es-decorators
 
 Most useful EcmaScript decorators
 
