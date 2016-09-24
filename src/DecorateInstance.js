@@ -32,7 +32,7 @@ export function DecorateInstance(decorator, ...args) {
                     return fn;
                 }
 
-                let decoratedFn = decorator(fn, ...args);
+                let decoratedFn = decorator.call(this, fn, ...args);
 
                 defineProperty(this, key, decoratedFn);
 
