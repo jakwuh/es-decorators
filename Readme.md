@@ -40,8 +40,8 @@ class Panzer {
 **@Memoize([resolver])**  
 > resolver {function} see [lodash.memoize](https://lodash.com/docs/4.15.0#memoize)  
 
-**@Once([resolver])**
-> resolver {function} see [lodash.once](https://lodash.com/docs/4.15.0#once)  
+**@Once**
+> see [lodash.once](https://lodash.com/docs/4.15.0#once)  
 
 **@DecorateInstance(decorator, ...args)**
 > decorator {function}  
