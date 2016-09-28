@@ -1,4 +1,4 @@
-import {Autobind} from './Autobind';
+import {Autobind} from './';
 import {expect} from 'chai';
 
 class A {
