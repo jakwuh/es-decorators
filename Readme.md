@@ -22,6 +22,9 @@ class Panzer {
 
 ## API
 
+**@Autobind**
+> binds method to container (e.g. class or object)
+
 **@Defaults(props)**
 > props {object}  
 > @Defaults decorator slightly differs from [lodash.defaults](https://lodash.com/docs/4.15.0#defaults)
