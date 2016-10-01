@@ -1,4 +1,4 @@
-# es-decorators
+# es-decorators [![Build Status](https://travis-ci.org/jakwuh/es-decorators.svg?branch=master)](https://travis-ci.org/jakwuh/es-decorators)
 
 Most useful EcmaScript decorators
 
