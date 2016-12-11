@@ -2,6 +2,7 @@
   "name": "es-decorators",
   "version": "0.1.0",
   "description": "Most useful EcmaScript decorators",
+  "jsnext:main": "src/index.js",
   "main": "lib/index.js",
   "scripts": {
     "start": "babel -w -s inline --presets es2015 --ignore spec.js -d lib src",

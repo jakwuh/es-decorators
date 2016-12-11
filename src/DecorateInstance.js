@@ -27,7 +27,6 @@ export function DecorateInstance(decorator, ...args) {
             enumerable: descriptor.enumerable,
 
             get() {
-
                 if (this.hasOwnProperty(key)) {
                     return fn;
                 }

@@ -43,6 +43,12 @@ class Panzer {
 **@Once**
 > see [lodash.once](https://lodash.com/docs/4.15.0#once)  
 
+**@Retry([count = 0])**
+> count {number} retry count. 0 means no retries, simply call.  
+> Assumes that decorated function returns promise. 
+The function will be called up to `count` times until it is resolved.
+
+
 **@DecorateInstance(decorator, ...args)**
 > decorator {function}  
 > args {*[]}  
